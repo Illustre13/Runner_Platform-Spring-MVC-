@@ -9,12 +9,12 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>ith</groupId>
-    <artifactId>smv_demo_001</artifactId>
+    <artifactId>Runner_Platform-Spring-MVC</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>smv_demo_001</name>
-    <description>smv_demo_001</description>
+    <name>Runner_Platform-Spring-MVC</name>
+    <description>Runner_Platform-Spring-MVC</description>
     <properties>
-        <java.version>8</java.version>
+        <java.version>17</java.version>
     </properties>
     <dependencies>
         <dependency>

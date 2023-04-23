@@ -1,7 +1,7 @@
-package ith.smv_demo_001.controller;
+package ith.runner_platform.controller;
 
-import ith.smv_demo_001.dto.ClubDto;
-import ith.smv_demo_001.service.ClubService;
+import ith.runner_platform.dto.ClubDto;
+import ith.runner_platform.service.ClubService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

@@ -1,9 +1,9 @@
-package ith.smv_demo_001.service.Implementation;
+package ith.runner_platform.service.Implementation;
 
-import ith.smv_demo_001.dto.ClubDto;
-import ith.smv_demo_001.models.Club;
-import ith.smv_demo_001.service.ClubService;
-import ith.smv_demo_001.repository.ClubRepository;
+import ith.runner_platform.dto.ClubDto;
+import ith.runner_platform.models.Club;
+import ith.runner_platform.service.ClubService;
+import ith.runner_platform.repository.ClubRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

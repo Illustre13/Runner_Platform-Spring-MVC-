@@ -1,4 +1,4 @@
-package ith.smv_demo_001.models;
+package ith.runner_platform.models;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

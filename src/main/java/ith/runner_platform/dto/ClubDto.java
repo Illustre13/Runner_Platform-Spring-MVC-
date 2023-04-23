@@ -1,9 +1,7 @@
-package ith.smv_demo_001.dto;
+package ith.runner_platform.dto;
 
 import lombok.Builder;
 import lombok.Data;
-import org.hibernate.annotations.CreationTimestamp;
-import org.hibernate.annotations.UpdateTimestamp;
 
 import java.time.LocalDateTime;
 

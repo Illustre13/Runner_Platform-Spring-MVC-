@@ -1,6 +1,6 @@
-package ith.smv_demo_001.repository;
+package ith.runner_platform.repository;
 
-import ith.smv_demo_001.models.Club;
+import ith.runner_platform.models.Club;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

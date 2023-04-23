@@ -1,4 +1,4 @@
-package ith.smv_demo_001;
+package ith.runner_platform;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
