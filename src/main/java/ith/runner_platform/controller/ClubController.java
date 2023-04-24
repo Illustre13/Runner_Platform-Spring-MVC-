@@ -52,6 +52,11 @@ public class ClubController {
         clubService.saveClub(clubDto);
             return "redirect:/clubs";
         }
+    @GetMapping("clubs/{clubId}/delete")
+    public String deleteClub(@PathVariable("clubId") Long clubId ){
+        clubService.delete(clubId);
+        return "redirect:/clubs";
+    }
     @GetMapping("/clubs/{clubId}/edit")
     public String editClubForm(@PathVariable("clubId") Long clubId, Model model) {
         ClubDto club = clubService.findClubById(clubId);
@@ -69,4 +74,5 @@ public class ClubController {
             clubService.updateClub(club);
             return "redirect:/clubs";
         }
+
 }
